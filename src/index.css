@@ -1,0 +1,44 @@
+:root {
+  --color: #329ce2;
+  --background-image: url(https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=3840&q=80);
+}
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  color: var(--color) !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: bold !important;
+}
+.dark {
+  background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.5)), var(--background-image);
+  background-size: cover;
+}
+.dark Button {
+  color: #fff !important;
+}
+.light {
+  background-image:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.3)), var(--background-image);
+  background-size: cover;
+}
+.light Button {
+  color: #000 !important;
+}
+.bgdark {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.bglight {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+}
+Button {
+  background-color: var(--color) !important;
+  border: none !important;
+}
+.btns {
+  width: 60% !important;
+}
+hr {
+  border-color: var(--color) !important;
+  border-width: 4px !important;
+}
